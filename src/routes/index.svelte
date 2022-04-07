@@ -11,7 +11,7 @@
 
 <section>
 	<h1>
-		<div class="welcome">
+		<div class="logo">
 			<picture>
 			<img src="gripp.svg">	
 			</picture>
