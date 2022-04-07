@@ -1,51 +1,27 @@
 <script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
-<script lang="ts">
+  export const prerender = true;
 </script>
 
 <svelte:head>
-	<title>gripp.engineering - get one.</title>
+  <title>gripp.engineering - get one.</title>
 </svelte:head>
 
-<section>
-	<h1>
-		<div class="logo">
-			<picture>
-			<img src="gripp.svg">	
-			</picture>
-		</div>
-
-	</h1>
-
-</section>
+  <div class="logo">
+    <img src="gripp.svg">	
+  </div>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.logo {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.logo img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
+  .logo {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 15%;
+  }
+  
+  .logo img {
+    display: block;
+    max-height: 33%;
+    max-width: 80%;
+    margin: auto;
+  }
 </style>
